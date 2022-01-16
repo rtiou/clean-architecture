@@ -55,7 +55,6 @@ jobs:
     - name: Autobuild
       uses: github/codeql-action/autobuild@v1
       with:
-        distribution: 'temurin' # See 'Supported distributions' for available options
         java-version: '17'
 
     # ℹ️ Command-line programs to run using the OS shell.
